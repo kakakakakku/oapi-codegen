@@ -653,9 +653,9 @@ which help you to use the various OpenAPI 3 Authentication mechanism.
     ```go
     // Defines values for ObjectCategory.
     const (
-    	Notice  ObjectCategory = 0
-    	Urgent  ObjectCategory = 2
-    	Warning ObjectCategory = 1
+    	N0 ObjectCategory = 0
+    	N1 ObjectCategory = 1
+    	N2 ObjectCategory = 2
     )
 
     // ObjectCategory defines model for Object.Category.
